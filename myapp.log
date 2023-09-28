@@ -1,0 +1,70 @@
+2023-09-28T02:55:14.030+08:00  WARN 13812 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h39s341ms339µs900ns).
+2023-09-28T07:18:36.223+08:00  INFO 30724 --- [main] c.t.t.TelemedicineWebApplication         : Starting TelemedicineWebApplication using Java 17.0.8.1 with PID 30724 (C:\Users\may-s\Downloads\Telemedicine-web-service-based-application-dev (1)\Telemedicine-web-service-based-application-dev\target\classes started by may-s in C:\Users\may-s\Downloads\Telemedicine-web-service-based-application-dev (1))
+2023-09-28T07:18:36.228+08:00  INFO 30724 --- [main] c.t.t.TelemedicineWebApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-28T07:18:37.516+08:00  INFO 30724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-28T07:18:37.688+08:00  INFO 30724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 154 ms. Found 5 JPA repository interfaces.
+2023-09-28T07:18:39.022+08:00  INFO 30724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-28T07:18:39.049+08:00  INFO 30724 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-28T07:18:39.049+08:00  INFO 30724 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-09-28T07:18:39.297+08:00  INFO 30724 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/myapp]  : Initializing Spring embedded WebApplicationContext
+2023-09-28T07:18:39.312+08:00  INFO 30724 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2973 ms
+2023-09-28T07:18:39.691+08:00  INFO 30724 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-28T07:18:39.839+08:00  INFO 30724 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2023-09-28T07:18:40.168+08:00  WARN 30724 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-09-28T07:18:40.384+08:00  INFO 30724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-28T07:18:40.972+08:00  INFO 30724 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d7b2319
+2023-09-28T07:18:40.972+08:00  INFO 30724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-28T07:18:41.091+08:00  INFO 30724 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-09-28T07:18:43.277+08:00  INFO 30724 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-28T07:18:43.294+08:00  INFO 30724 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-28T07:18:44.905+08:00  WARN 30724 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-28T07:18:45.658+08:00  INFO 30724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/myapp'
+2023-09-28T07:18:45.675+08:00  INFO 30724 --- [main] c.t.t.TelemedicineWebApplication         : Started TelemedicineWebApplication in 10.484 seconds (process running for 11.253)
+2023-09-28T07:19:08.391+08:00  INFO 30724 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/myapp]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-28T07:19:08.393+08:00  INFO 30724 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-28T07:19:08.393+08:00  INFO 30724 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-09-28T07:21:29.316+08:00  INFO 2872 --- [main] c.t.t.TelemedicineWebApplication         : Starting TelemedicineWebApplication using Java 17.0.8.1 with PID 2872 (C:\Users\may-s\Downloads\Telemedicine-web-service-based-application-dev (1)\Telemedicine-web-service-based-application-dev\target\classes started by may-s in C:\Users\may-s\Downloads\Telemedicine-web-service-based-application-dev (1))
+2023-09-28T07:21:29.324+08:00  INFO 2872 --- [main] c.t.t.TelemedicineWebApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-28T07:21:30.688+08:00  INFO 2872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-28T07:21:30.888+08:00  INFO 2872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 177 ms. Found 5 JPA repository interfaces.
+2023-09-28T07:21:32.064+08:00  INFO 2872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-28T07:21:32.107+08:00  INFO 2872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-28T07:21:32.107+08:00  INFO 2872 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-09-28T07:21:32.344+08:00  INFO 2872 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/myapp]  : Initializing Spring embedded WebApplicationContext
+2023-09-28T07:21:32.344+08:00  INFO 2872 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2918 ms
+2023-09-28T07:21:32.748+08:00  INFO 2872 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-28T07:21:32.923+08:00  INFO 2872 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2023-09-28T07:21:33.292+08:00  WARN 2872 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-09-28T07:21:33.555+08:00  INFO 2872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-28T07:21:34.092+08:00  INFO 2872 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b94703b
+2023-09-28T07:21:34.092+08:00  INFO 2872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-28T07:21:34.228+08:00  INFO 2872 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-09-28T07:21:36.091+08:00  INFO 2872 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-28T07:21:36.122+08:00  INFO 2872 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-28T07:21:37.470+08:00  WARN 2872 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-28T07:21:38.082+08:00  INFO 2872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/myapp'
+2023-09-28T07:21:38.082+08:00  INFO 2872 --- [main] c.t.t.TelemedicineWebApplication         : Started TelemedicineWebApplication in 9.717 seconds (process running for 10.472)
+2023-09-28T09:21:15.980+08:00  INFO 27624 --- [main] c.t.t.TelemedicineWebApplication         : Starting TelemedicineWebApplication using Java 17.0.8.1 with PID 27624 (C:\Users\may-s\Downloads\Telemedicine-web-service-based-application-dev (1)\Telemedicine-web-service-based-application-dev\target\classes started by may-s in C:\Users\may-s\Downloads\Telemedicine-web-service-based-application-dev (1))
+2023-09-28T09:21:15.996+08:00  INFO 27624 --- [main] c.t.t.TelemedicineWebApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-28T09:21:17.884+08:00  INFO 27624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-28T09:21:18.071+08:00  INFO 27624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 166 ms. Found 5 JPA repository interfaces.
+2023-09-28T09:21:19.038+08:00  INFO 27624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-28T09:21:19.057+08:00  INFO 27624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-28T09:21:19.061+08:00  INFO 27624 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-09-28T09:21:19.235+08:00  INFO 27624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/myapp]  : Initializing Spring embedded WebApplicationContext
+2023-09-28T09:21:19.244+08:00  INFO 27624 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3063 ms
+2023-09-28T09:21:19.516+08:00  INFO 27624 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-28T09:21:19.658+08:00  INFO 27624 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2023-09-28T09:21:19.979+08:00  WARN 27624 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-09-28T09:21:20.228+08:00  INFO 27624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-28T09:21:20.710+08:00  INFO 27624 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ab7ac02
+2023-09-28T09:21:20.710+08:00  INFO 27624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-28T09:21:20.817+08:00  INFO 27624 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-09-28T09:21:22.507+08:00  INFO 27624 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-28T09:21:22.524+08:00  INFO 27624 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-28T09:21:23.728+08:00  WARN 27624 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-28T09:21:24.512+08:00  INFO 27624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/myapp'
+2023-09-28T09:21:24.554+08:00  INFO 27624 --- [main] c.t.t.TelemedicineWebApplication         : Started TelemedicineWebApplication in 9.415 seconds (process running for 10.169)
+2023-09-28T09:21:37.820+08:00  INFO 27624 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/myapp]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-28T09:21:37.820+08:00  INFO 27624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-28T09:21:37.820+08:00  INFO 27624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
