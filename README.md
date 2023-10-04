@@ -7,3 +7,4 @@ This is a backend of the web application. It has to be run with a front end UI i
 ## Steps to run: <br>
 1. run [micro services](https://github.com/AmySTR/Telemedicine/tree/main/Telemedicine-web-service-based-application-dev)
 2. run [front end web](https://github.com/AmySTR/Telemedicine_React)
+3. Open local host website: http://localhost:3000/
